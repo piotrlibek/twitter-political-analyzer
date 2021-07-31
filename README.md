@@ -29,6 +29,8 @@ Po uruchomieniu skryptu zostanie stworzony katalog użytkownika, w środku niego
 * Do używania skryptu potrzebny jest plik językowy który zawiera listę ideologii, partii politycznych, i danych potrzebnych do
 stworzenia statystyki wyjściowej. Podstawowy plik w języku polskim jest załączony w repozytorium.
 
+* Do uruchomienia skryptu potrzebny jest Token API Twittera który możesz uzyskać tutaj: https://developer.twitter.com, znajdź Bearer Token i umieść go w środku skryptu w zmiennej token = ""
+
 * twitterpoliticalanalyzer.py [twitter_name] [language_filename]
 
 * Help: twitterpoliticalanalyzer.py -h
