@@ -1,0 +1,282 @@
+{
+  "politicalParties": [
+    {
+      "name": "PiS",
+      "color": "#2361AC",
+      "pattern": "(pisorgpl|prawa i sprawiedli|zjednoczona prawica)"
+    },
+    {
+      "name": "PO",
+      "color": "#F18817",
+      "pattern": "(platforma obywatelska|platformaobywatelska|koalicj)"
+    },
+    {
+      "name": "NL",
+      "color": "#8C1856",
+      "pattern": "(nowalewica|nowa lewica|sld)"
+    },
+    {
+      "name": "PSL",
+      "color": "#2DCC92",
+      "pattern": "(psl|polskie stronnictwo ludowe|polskiestronnictwoludowe)"
+    },
+    {
+      "name": "SP",
+      "color": "#F70C15",
+      "pattern": "(solidarna polska|solidarnapolska|solidarna)"
+    },
+    {
+      "name": "Porozumienie",
+      "color": "#2F1578",
+      "pattern": "(porozumienie|gowin)"
+    },
+    {
+      "name": "Konfederacja",
+      "color": "#152A47",
+      "pattern": "(konfederacja)"
+    },
+    {
+      "name": "PL2050",
+      "color": "#F1BA12",
+      "pattern": "(pl2050|polska 2050|polska2050|holownia|hołownia)"
+    },
+    {
+      "name": "Razem",
+      "color": "#830F54",
+      "pattern": "(partiarazem|partia razem|lewica razem)"
+    },
+    {
+      "name": ".N",
+      "color": "#0059A4",
+      "pattern": "(nowoczesna|\\.n)"
+    },
+    {
+      "name": "KORWiN",
+      "color": "#102F55",
+      "pattern": "(korwin)"
+    },
+    {
+      "name": "RN",
+      "color": "#930304",
+      "pattern": "(ruch narodowy|ruchnarodowy|winnicki|bosak)"
+    },
+    {
+      "name": "Zieloni",
+      "color": "#69AE1D",
+      "pattern": "(zieloni)"
+    },
+    {
+      "name": "UED",
+      "color": "#01448F",
+      "pattern": "(unia europejskich demokratów|ued|uniaeurodem)"
+    },
+    {
+      "name": "KKP",
+      "color": "#DFA12B",
+      "pattern": "(kkp|braun)"
+    },
+    {
+      "name": "PPS",
+      "color": "#F70000",
+      "pattern": "(pps|polskapartiasocjalistyczna|polska partia socjalistyczna)"
+    },
+    {
+      "name": "Libertarianie",
+      "color": "#F6C004",
+      "pattern": "(libertarianie)"
+    },
+    {
+      "name": "Możemy!",
+      "color": "#FECD46",
+      "pattern": "(partiamozemy|partia mozemy|mlodzimoga)"
+    }
+  ],
+  "politicalIdeologies": [
+    {
+      "rightPatterns": [
+        {
+          "name": "capitalism",
+          "screenName": "Capitalism",
+          "color": "#3F51B5",
+          "pattern": "(\\⚖️|kapitalizm|kap|lib|wolny rynek|[Aa]ntykomunista|[Aa]ntysocjalista)",
+          "partyPattern": "Możemy!,Libertarianie,KKP,UED,RN,KORWiN,.N,Konfederacja,Porozumienie",
+          "x": 0.6,
+          "y": 0
+        },
+        {
+          "name": "conservative",
+          "screenName": "Conservative",
+          "color": "#00EDD4",
+          "pattern": "(konserwaty|conservati)",
+          "partyPattern": "KKP,RN,KORWiN,Konfederacja,Porozumienie,PiS,SP",
+          "x": 0,
+          "y": 0.30
+        },
+        {
+          "name": "monarchism",
+          "screenName": "Monarchism",
+          "color": "#F5CA29",
+          "pattern": "(monarchi|reakcjo|👑)",
+          "partyPattern": "KKP,KORWiN,Konfederacja",
+          "x": 0,
+          "y": 0.20
+        },
+        {
+          "name": "pro-gun",
+          "screenName": "Pro-Gun",
+          "color": "#140200",
+          "pattern": "(pro gun|pro-gun)",
+          "partyPattern": "KKP,KORWiN,Konfederacja,Porozumienie",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "minarchism",
+          "screenName": "Minarchism",
+          "color": "#4D5532",
+          "pattern": "(minarchi|lib)",
+          "partyPattern": "KKP,KORWiN,Konfederacja,Możemy!,Libertarianie,UED,Porozumienie",
+          "x": 0.20,
+          "y": -0.20
+        },
+        {
+          "name": "pro-life",
+          "screenName": "Pro-Life",
+          "color": "#0DAF36",
+          "pattern": "(prolife|pro-life|pro life)",
+          "partyPattern": "KKP,KORWiN,Konfederacja,PiS,SP,RN,Porozumienie",
+          "x": 0,
+          "y": 0.20
+        },
+        {
+          "name": "militarism",
+          "screenName": "Militarism",
+          "color": "#224200",
+          "pattern": "(militaryzm)",
+          "partyPattern": "",
+          "x": 0,
+          "y": 0.20
+        },
+        {
+          "name": "nacionalism",
+          "screenName": "Nacionalism",
+          "color": "#221F61",
+          "pattern": "(nacjonalist|narodowiec)",
+          "partyPattern": "KKP,KORWiN,Konfederacja,PiS,RN,SP,PL2050,.N,Porozumienie",
+          "x": 0,
+          "y": 0.20
+        }
+      ]
+    },
+    {
+      "leftPatterns": [
+        {
+          "name": "socialism",
+          "screenName": "Socialism",
+          "color": "#F44336",
+          "pattern": "(🌹|🚩|☭|(?<!\\banty\\.)\\bsocjalist|socdem|socjaldemokracja|socjal demokracja|social democrat|socjalliberalizm|(?<!\\banty\\.)\\bkomunist|communis|keynesi)",
+          "partyPattern": "PiS,PL2050,PO,NL,Razem,Zieloni,PSL,PPS",
+          "x": -0.6,
+          "y": 0
+        },
+        {
+          "name": "progressive",
+          "screenName": "Progressive",
+          "color": "#3A007A",
+          "pattern": "(egalitaryzm|marksizm|marxis|postęp|progres|\\+48222922597|femini)",
+          "partyPattern": "PL2050,PO,NL,Razem,Zieloni,PSL,Libertarianie,Możemy!,PPS,UED",
+          "x": 0,
+          "y": -0.30
+        },
+        {
+          "name": "blm",
+          "screenName": "BLM",
+          "color": "#330D00",
+          "pattern": "(✊|blm)",
+          "partyPattern": "",
+          "x": 0,
+          "y": 0
+        },
+        {
+          "name": "pro-choice",
+          "screenName": "Pro-Choice",
+          "color": "#CBA3CD",
+          "pattern": "(\\+48222922597|aborcja|pro-choice)",
+          "partyPattern": "PL2050,PO,NL,Razem,Zieloni,PSL,Libertarianie,Możemy!,PPS,UED",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "pro-lgbt",
+          "screenName": "Pro-LGBT",
+          "color": "#8540A0",
+          "pattern": "(lgbt)",
+          "partyPattern": "",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "feminist",
+          "screenName": "Feminist",
+          "color": "#8A6084",
+          "pattern": "(⚡|feministka|feminista)",
+          "partyPattern": "",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "anarchism",
+          "screenName": "Anarchism",
+          "color": "#000000",
+          "pattern": "(Ⓐ|🏴|🖤|anarchistka|anarchizm|anarchista|anarchia)",
+          "partyPattern": "",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "internacionalism",
+          "screenName": "Internacionalism",
+          "color": "#005F70",
+          "pattern": "(kosmopolit|internacjona)",
+          "partyPattern": "PO,NL,Razem,Zieloni,PSL,Libertarianie,Możemy!,PPS,UED",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "pacifism",
+          "screenName": "Pacifism",
+          "color": "#97FF29",
+          "pattern": "(pacyfi)",
+          "partyPattern": "",
+          "x": 0,
+          "y": -0.20
+        },
+        {
+          "name": "democracy",
+          "screenName": "Democracy",
+          "color": "#41545D",
+          "pattern": "(demokracj)",
+          "partyPattern": "PL2050,PO,NL,Razem,Zieloni,PSL,Libertarianie,Możemy!,PPS,UED,PiS,SP,Porozumienie",
+          "x": 0,
+          "y": -0.20
+        }
+      ]
+    },
+    {
+      "centerPatterns": [
+        {
+          "name": "christian",
+          "screenName": "Christian",
+          "color": "#111111",
+          "pattern": "(katoli|protesta|prawos[lł]aw|chrze[śs]cija|christia)"
+        },
+        {
+          "name": "atheist",
+          "screenName": "Atheist",
+          "color": "#555555",
+          "pattern": "(ateist|atheis)"
+        }
+      ]
+    }
+  ]
+}
